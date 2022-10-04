@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+    android:id="@+id/home1"
+    android:title="Home"
+    android:iconTint="@color/orange"
+    android:icon="@drawable/home"/>
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/profile"/>
+    <item
+        android:id="@+id/message"
+        android:title="Message"
+        android:icon="@drawable/message"/>
+    <item
+        android:id="@+id/sync"
+        android:title="Sync"
+       android:icon="@drawable/sync" />
+    <item android:title="trash">
+        <menu>
+            <item
+                android:title="Login"
+                android:id="@+id/login"
+                android:icon="@drawable/login"
+                />
+        </menu>
+
+    </item>
+</menu>
